@@ -1,0 +1,143 @@
+/*em= tamaño de una M, px=punto en pantalla, pt=tamaño relativo procesador de texto
+%=toma el porcentaje de la pantalla que se este visualizando*/
+
+body{
+    background-color: rgb(203, 241, 241);
+    text-align: center; /*alineacion del texto*/
+}
+
+img{
+    margin: 4px;
+    border-radius: 20px;
+    border: 3px rgb(3, 3, 3) solid;
+    
+}
+
+h2{
+    padding: 20px;
+    border-radius: 20px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+    
+}
+
+h3{
+    background-color: rgb(125, 188, 218);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+    box-shadow: -3px 3px 5px black; /*offset-x, offset-y, blur-radius, color*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1{
+    background-color: rgb(96, 196, 243);
+    color: rgb(49, 20, 216);
+    padding: 30px;
+    border-radius: 20px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+    box-shadow: -3px 3px 5px black; /*offset-x, offset-y, blur-radius, color*/
+    align-items: center;
+    text-align: center;
+    
+}
+
+.activo{ /*Clasificador es para aplicar un estilo un determinado grupo de objetos*/
+    background-color: rgb(68, 166, 247);
+    border: 0.5px rgb(8, 116, 143) solid;
+    border-radius: 20px;/*borde*/
+    text-shadow: black 1px 1px;
+    font-weight: bold; /*letra en negrita*/
+    margin: auto;
+   
+}
+
+.sucursal{
+    background-color: rgb(54, 146, 250);
+    display: inline-block;
+    margin: auto; /*centro automatico del objeto*/
+    padding: 10px /*margen interna*/;
+    border-radius: 20px;
+    width: 100px ; /*tamaño*/
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt; /*tamaño de la fuente*/
+    font-family: "Tahoma"; /*Familia de fiente*/
+}
+
+.boton{
+    background-color: rgb(66, 171, 185);
+    display: inline-block;
+    margin: auto; /*centro automatico del objeto*/
+    padding: 10px /*margen interna*/;
+    border-radius: 20px;
+    width: 200px ; /*tamaño*/
+    text-decoration: none;
+}
+
+.boton:hover{ /*seudoclase hover sobre objeto*/
+    background-color: rgb(26, 92, 122);
+    box-shadow: -3px 3px 5px black;
+}
+
+nav{    
+    background-color: rgb(21, 133, 197);
+    margin: auto; /*margenes con respecto a otro objeto*/
+    padding: 25px; /*hacer ancho un objeto*/
+    border: 0.5px rgb(48, 10, 216) solid;
+    border-radius: 20px;/*borde*/
+    width: 950px ; /*tamaño 950*/
+    
+}
+
+p{
+    padding: 7px;
+    width: 950px ; /*tamaño*/
+    margin: auto;
+}
+
+h4{
+    padding: 16px;
+    width: 950px ; /*tamaño*/
+    margin: auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    width: 80%; /*relativo al tamaño de la ventana donde se muestre el dispositivo*/
+    margin: auto;
+    border: 1px rgba(57, 114, 236, 0.651) solid;
+    border-collapse: collapse; /*quita el borde doble*/
+}
+
+th{
+    background-color: rgb(63, 171, 190);
+    color: rgb(3, 3, 3);
+    border: 3px black solid;
+}
+
+td{
+    border: 3px black solid;
+}
+
+tr:hover{
+    background-color: rgba(82, 166, 187, 0.63);
+}
+
+#xvid{ /*Referencia a un objeto particular*/
+     width: 70%;
+     padding: 10px;
+     margin: auto;
+}
+
+hr{
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
